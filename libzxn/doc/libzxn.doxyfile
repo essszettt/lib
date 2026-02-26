@@ -1,0 +1,38 @@
+# Projektinformationen
+PROJECT_NAME           = "libzxn"
+PROJECT_BRIEF          = "Platform library for ZX Spectrum Next"
+PROJECT_NUMBER         = "1.0.0"
+
+# Eingabe
+INPUT                  = ../inc ../src
+FILE_PATTERNS          = *.h *.c *.asm
+RECURSIVE              = YES
+
+# Nur dokumentierte Elemente anzeigen
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+EXTRACT_PRIVATE        = NO
+
+# Ausgabe
+OUTPUT_DIRECTORY       = .
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+GENERATE_MAN           = NO
+GENERATE_RTF           = NO
+
+# HTML-Einstellungen
+HTML_OUTPUT            = html
+HTML_GENERATE_TREEVIEW = NO
+HTML_DYNAMIC_SECTIONS  = NO
+
+# Diagramme deaktivieren
+HAVE_DOT               = NO
+CALL_GRAPH             = NO
+CALLER_GRAPH           = NO
+CLASS_DIAGRAMS         = NO
+
+# Sonstiges
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES

@@ -1,4 +1,6 @@
 libdrv/build/*.o
 libdrv/build/*.lib
+libdrv/doc/html/*
 libzxn/build/*.o
 libzxn/build/*.lib
+libzxn/doc/html/*
