@@ -1,0 +1,17 @@
+
+f_clock		clock AY-3-8912
+f_tone		freq of tone
+f_noise		freq of noise
+f_env			freq of envelope
+
+p_tone  = f_clock / (16 * f_tone)
+f_clock = p_tone * 16 * f_tone
+f_tone  = f_clock / (16 * p_tone)
+
+
+p_tone = f_clock / (16 * (1 / t_tone))
+p_tone = f_clock * (t_tone / 16)
+p_tone = (f_clock * t_tone) / 16
+t_tone = (16 * p_tone) / f_clock
+
+
