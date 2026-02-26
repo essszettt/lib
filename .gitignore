@@ -1,0 +1,4 @@
+libdrv/build/*.o
+libdrv/build/*.lib
+libzxn/build/*.o
+libzxn/build/*.lib
